@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1401
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latian LKS 2 Web API", "Latian LKS 2 Web API\Latian LKS 2 Web API.csproj", "{28DE1389-7C93-4DF2-B8BA-57E8A8F0ED72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28DE1389-7C93-4DF2-B8BA-57E8A8F0ED72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DE1389-7C93-4DF2-B8BA-57E8A8F0ED72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DE1389-7C93-4DF2-B8BA-57E8A8F0ED72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DE1389-7C93-4DF2-B8BA-57E8A8F0ED72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA934092-5766-4F1B-9BFB-D9188933A6D3}
+	EndGlobalSection
+EndGlobal

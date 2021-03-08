@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="88c102285fe34624adaeeb9e20554680" Name="Diagram1">
+        <EntityTypeShape EntityType="HotelLagiModel.Customer" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.Employee" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.FDCheckOut" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.FoodsAndDrink" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.Item" Width="1.5" PointX="11.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.ItemStatu" Width="1.5" PointX="8.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.Job" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.Reservation" Width="1.5" PointX="8.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.ReservationCheckOut" Width="1.5" PointX="10.5" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.ReservationRequestItem" Width="1.5" PointX="13.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.ReservationRoom" Width="1.5" PointX="10.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.Room" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.RoomType" Width="1.5" PointX="6" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelLagiModel.sysdiagram" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="true" />
+        <AssociationConnector Association="HotelLagiModel.FK__Reservati__Custo__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__Employee__JobID__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__FDCheckOu__Emplo__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__Reservati__Emplo__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__FDCheckOu__Reser__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__FDCheckOut__FDID__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__Reservati__ItemI__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__Reservati__ItemI__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__Reservati__ItemS__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__Reservati__Reser__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__Reservati__Reser__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__Reservati__Reser__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__Reservati__RoomI__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelLagiModel.FK__Room__RoomTypeID__4F7CD00D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
